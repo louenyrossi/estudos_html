@@ -1,0 +1,11 @@
+h1{
+    font-size: 40px;
+    color: white;
+    background-color: darkred;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 10px;
+}
