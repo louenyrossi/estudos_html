@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MenuDropDown</title>
+    <style>
+        .dropbtn {
+            background-color: #4caf50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropbtn {
+            /* O elemento continua ocupando o mesmo espaço mas pode ser movido com to,left,right,bottom */
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-conteudo{
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Menu MenuDropDown</h2>
+    <p>Mova o ouse ate o botão para abrir o menu DropDown</p>
+    <div class="dropdown">
+        <button class="dropbtn">DropDown</button>
+        <div class="dropdown-conteudo">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+    </div>
+</body>
+
+</html>
